@@ -1,0 +1,131 @@
+<Stellaris name="Stellaris">
+	<EmpireData>
+		<Ethic name="Militarist"/>
+		<Ethic name="Pacifist"/>
+		<Ethic name="Xenophobe"/>
+		<Ethic name="Xenophile"/>
+		<Ethic name="Materialist"/>
+		<Ethic name="Spiritualist"/>
+		<Ethic name="Authoritarian"/>
+		<Ethic name="Egalitarian"/>
+		<Ethic name="Fanatic Militarist"/>
+		<Ethic name="Fanatic Pacifist"/>
+		<Ethic name="Fanatic Xenophobe"/>
+		<Ethic name="Fanatic Xenophile"/>
+		<Ethic name="Fanatic Materialist"/>
+		<Ethic name="Fanatic Spiritualist"/>
+		<Ethic name="Fanatic Authoritarian"/>
+		<Ethic name="Fanatic Egalitarian"/>
+		<Ethic name="Gestalt Consciousness"/>
+		<Authority name="Corporate"/>
+		<!-- <Civic name="Cutthroat Politics"/>
+		<Civic name="Efficient Bureacracy"/> -->
+		<Civic name="Environmentalist"/>
+		<!-- <Civic name="Functional Architecture"/> -->
+		<Civic name="Mining Guilds"/>
+		<Civic name="Agrarian Idyll"/>
+		<Civic name="Aristocratic Elite"/>
+		<!-- <Civic name="Beacon of Liberty"/>
+		<Civic name="Citizen Service"/> -->
+		<Civic name="Corporate Dominion"/>
+		<!-- <Civic name="Corvée System"/> -->
+		<Civic name="Distinguished Admiralty"/>
+		<!-- <Civic name="Exalted Priesthood"/> -->
+		<Civic name="Feudal Society"/>
+		<Civic name="Free Haven"/>
+		<Civic name="Idealistic Foundation"/>
+		<!-- <Civic name="Imperial Cult"/> -->
+		<Civic name="Inward Perfection"/>
+		<!-- <Civic name="Meritocracy"/>
+		<Civic name="Nationalistic Zeal"/>
+		<Civic name="Parliamentary System"/>
+		<Civic name="Philosopher King"/> -->
+		<Civic name="Police State"/>
+		<!-- <Civic name="Shadow Council"/> -->
+		<Civic name="Slaver Guilds"/>
+		<!-- <Civic name="Technocracy"/> -->
+		<Civic name="Warrior Culture"/>
+		<!-- <Civic name="Catalytic Processing"/>
+		<Civic name="Idyllic Bloom"/>
+		<Civic name="Ascensionists"/>
+		<Civic name="Fanatic Purifiers"/>
+		<Civic name="Masterful Crafters"/>
+		<Civic name="Pleasure Seekers"/>
+		<Civic name="Pompous Purists"/> -->
+		<Civic name="Barbaric Despoilers"/>
+		<!-- <Civic name="Merchant Guilds"/> -->
+		<Civic name="Shared Burdens"/>
+		<Civic name="Diplomatic Corps"/>
+		<!-- <Civic name="Death Cult"/>
+		<Civic name="Memorialists"/>
+		<Civic name="Reanimators"/>
+		<Civic name="Anglers"/>
+		<Civic name="Mutagenic Spas"/>
+		<Civic name="Relentless Industrialists"/>
+		<Civic name="Scavengers"/> -->
+		<!-- <CorpCivic name="Criminal Heritage"/> -->
+		<CorpCivic name="Franchising"/>
+		<CorpCivic name="Free Traders"/>
+		<!-- <CorpCivic name="Private Prospectors"/> -->
+		<CorpCivic name="Trading Posts"/>
+		<!-- <CorpCivic name="Brand Loyalty"/>
+		<CorpCivic name="Gospel of the Masses"/> -->
+		<CorpCivic name="Indentured Assets"/>
+		<!-- <CorpCivic name="Media Conglomerate"/> -->
+		<CorpCivic name="Naval Contractors"/>
+		<CorpCivic name="Private Military Companies"/>
+		<!-- <CorpCivic name="Ruthless Competition"/>
+		<CorpCivic name="Catalytic Recyclers"/>
+		<CorpCivic name="Ascensionists"/>
+		<CorpCivic name="Corporate Hedonism"/>
+		<CorpCivic name="Mastercraft Inc."/> -->
+		<CorpCivic name="Public Relations Specialists"/>
+		<!-- <CorpCivic name="Corporate Death Cult"/>
+		<CorpCivic name="Permanent Employment"/>
+		<CorpCivic name="Anglers"/>
+		<CorpCivic name="Mutagenic Spas"/>
+		<CorpCivic name="Relentless Industrialists"/>
+		<CorpCivic name="Scavengers"/> -->
+	</EmpireData>
+	<WeightingCategories>
+		<GalacticCommunity name="Galactic Community">
+			<GalacticCommerce name="Galactic Commerce">
+				<BuzzwordStandardization name="Buzzword Standardization">
+					<Weighting name="Corporate" weight="2"/>
+					<Weighting name="Corporate Dominion" weight="2"/>
+					<Weighting name="Free Traders" weight="1.2"/>
+					<Weighting name="Trading Posts" weight="1.2"/>
+					<Weighting name="Gestalt Consciousness" weight="0.1"/>
+				</BuzzwordStandardization>
+				<LeveragedPrivateering name="Leveraged Privateering">
+					<Weighting name="Corporate" weight="2"/>
+					<Weighting name="Corporate Dominion" weight="2"/>
+					<Weighting name="Militarist" weight="0.8"/>
+					<Weighting name="Fanatic Militarist" weight="0.8"/>
+					<Weighting name="Gestalt Consciousness" weight="0.1"/>
+				</LeveragedPrivateering>
+				<UnderdevelopedSystemUtilization name="Underdeveloped System Utilization">
+					<Weighting name="Corporate" weight="2"/>
+					<Weighting name="Corporate Dominion" weight="2"/>
+					<Weighting name="Xenophile" weight="1.2"/>
+					<Weighting name="Fanatic Xenophile" weight="1.2"/>
+					<Weighting name="Gestalt Consciousness" weight="0.1"/>
+				</UnderdevelopedSystemUtilization>
+				<HolisticAssetCoordination name="Holistic Asset Coordination">
+					<Weighting name="Corporate" weight="2"/>
+					<Weighting name="Corporate Dominion" weight="2"/>
+					<Weighting name="Gestalt Consciousness" weight="0.1"/>
+				</HolisticAssetCoordination>
+				<ProfitMaximizationEngines name="Profit Maximization Engines">
+					<Weighting name="Corporate" weight="2"/>
+					<Weighting name="Corporate Dominion" weight="2"/>
+					<Weighting name="Authoritarian" weight="1.5"/>
+					<Weighting name="Fanatic Authoritarian" weight="1.5"/>
+					<Weighting name="Egalitarian" weight="0.5"/>
+					<Weighting name="Fanatic Egalitarian" weight="0.5"/>
+					<Weighting name="Gestalt Consciousness" weight="0.1"/>
+				</ProfitMaximizationEngines>
+			</GalacticCommerce>
+		</GalacticCommunity>
+	</WeightingCategories>
+</Stellaris>
